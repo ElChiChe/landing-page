@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans", sans-serif;
+}
+
+body {
+	background: #f8f8f8;
+}
+
+.header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 100px;
+}
+
+.logo {
+	font-size: 40px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 600;
+	color: #000;
+	text-decoration: none;
+}
+
+.logo span {
+	font-family: "Open Sans", sans-serif;
+	color: #e63b29;
+}
+
+.ul-list {
+	width: 300px;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+}
+
+.header-link {
+	color: #000;
+	text-decoration: none;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+.bag-icon {
+	font-size: 20px;
+	color: #e63b29;
+	cursor: pointer;
+}
+
+.main {
+	height: 700px;
+	min-height: 550px;
+}
+
+.main-items {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 550px;
+}
+
+.main-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 40%;
+}
+
+.main-text h1 {
+	font-size: 80px;
+}
+
+.main-text p {
+	font-size: 17px;
+}
+
+.main-text span {
+	color: #e63b29;
+}
+
+.main-div-img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 500px;
+	width:500px;
+	border-radius: 40% 10px 40% 20px;
+	border-top: 5px solid #0004;
+	border-bottom: 5px solid #0004;
+	background-image: url(images/pexels-franklin-13020506.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 10px;
+	box-shadow: 10px 1px #000a;
+}
+
+.main-text h1,
+.main-text p {
+	color: #000;
+
+}
+
+/*SECTION INFORMATION STYLES*/
+
+.information {
+	min-height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.section-div {
+	width: 90%;
+	min-height: 500px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 10px;
+}
+
+.section-div .card-container {
+	width: 200px;
+	min-height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.section-div .card-container span {
+	margin-top: 10px;
+	letter-spacing: .5px;
+	color: #000;
+
+}
+
+.img-div {
+	width: 100%;
+	height: 100%;
+}
+
+.img-div img {
+	width: 100%;
+	height: 300px;
+	border-radius: 30% 10px 30% 10px;
+	padding: 4px;
+	border-top: 3px solid #0009;
+	border-bottom: 2px solid #0005;
+	box-shadow: -4px -5px #0007;
+}
+
+
+/*TEXT INFORMATION STYLES*/
+
+.about-section {
+	background: #f9f9f9;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.about-text {
+	width: 70%;
+	height: 44%;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+.about-text h2 {
+	font-size: 40px;
+}
+
+.about-section p {
+	font-size: 17px;
+	letter-spacing: 1px;
+}
+
+
+/*LOGIN SECTION STYLES*/
+
+.login-section {
+	height: 300px;
+	background: #f1f1f1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.text-div {
+	width: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+.text-div span {
+	font-size: 30px;
+}
+
+.login-section button {
+	height: 40px;
+	width: 100px;
+	border-radius: 20px;
+	border: none;
+	border-top: 2px solid #0008;
+	border-bottom: 2px solid #0005;
+	box-shadow: 5px 3px #0003;
+	cursor: pointer;
+}
+
+/*FOOTER STYLES*/
+
+.footer {
+	background: #000;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: 3px solid #fff8;
+}
+
+.footer p {
+	color: #fff;
+	letter-spacing: 1px;
+}
